@@ -1,0 +1,4 @@
+zone "house.mager" {
+	type master;
+	file "/var/lib/bind/house.mager.hosts";
+	};
