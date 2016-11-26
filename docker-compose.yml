@@ -5,5 +5,4 @@ services:
     ports:
     - "53:53"
     - "53:53/udp"
-volumes:
-  logvolume01: {}
+    restart: always
