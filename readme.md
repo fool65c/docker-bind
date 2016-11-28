@@ -4,3 +4,8 @@ To run
 ```bash
 docker-compose up -d
 ```
+
+To reload the adblock lists run
+```bash
+docker exec $(docker ps -aqf "name=dockerbind")  /usr/sbin/update_adblock.sh
+```
