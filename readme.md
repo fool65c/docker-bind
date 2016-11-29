@@ -1,4 +1,5 @@
-Simple bind server to route all local queries back to 192.168.1.124
+Simple bind server to route all local queries back to 192.168.1.150
+and block ads!
 
 To run 
 ```bash

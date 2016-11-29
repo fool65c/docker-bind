@@ -6,4 +6,4 @@ house.mager.	IN	SOA	ns1. mager\.kevin.gmail.com. (
 			604800
 			38400 )
 house.mager.	IN	NS	ns1.
-*.house.mager.	IN	A	192.168.1.124
+*.house.mager.	IN	A	192.168.1.150
