@@ -3,6 +3,6 @@ services:
   bind:
     build: .
     ports:
-    - "53:53"
-    - "53:53/udp"
+    - "${EXTERNAL_IP}:53:53"
+    - "${EXTERNAL_IP}:53:53/udp"
     restart: always
