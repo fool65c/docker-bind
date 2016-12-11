@@ -21,7 +21,7 @@ COPY config/house.mager.hosts /var/lib/bind/house.mager.hosts
 COPY config/null.zone.file /var/lib/bind/null.zone.file
 
 # install curl
-RUN apt-get install -y curl
+RUN apt-get install -y curl unzip
 
 # install update script
 COPY support/update_adblock.sh /usr/sbin/update_adblock.sh
