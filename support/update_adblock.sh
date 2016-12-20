@@ -67,7 +67,7 @@ echo "Checking File limit"
 check_file_limit ${ADBLOCK_TEMP_FILE} ${ADBLOCK_FILE_LIMIT}
 
 echo "Moving to final location"
-mv ${$ADBLOCK_TEMP_FILE} ${ADBLOCK_FILE}
+mv ${ADBLOCK_TEMP_FILE} ${ADBLOCK_FILE}
 
 echo "Checking to see if bind is running"
 reload_bind
