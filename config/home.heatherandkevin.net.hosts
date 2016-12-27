@@ -1,0 +1,9 @@
+$ttl 38400
+@	IN	SOA	ns1. mager\.kevin.gmail.com. (
+			1480107945
+			10800
+			3600
+			604800
+			38400 )
+home.heatherandkevin.net.	IN	NS	ns1.
+home.heatherandkevin.net.	IN	A	192.168.1.150

@@ -1,4 +1,10 @@
 zone "house.mager" {
-	type master;
+	type master; 
 	file "/var/lib/bind/house.mager.hosts";
 	};
+
+zone "home.heatherandkevin.net" {
+	type master;
+	notify no;
+	file "/var/lib/bind/home.heatherandkevin.net.hosts";
+};
