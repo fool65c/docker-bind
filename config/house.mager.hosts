@@ -7,4 +7,5 @@ house.mager.	IN	SOA	ns1. mager\.kevin.gmail.com. (
 			38400 )
 house.mager.	IN	NS	ns1.
 openhab.house.mager.	IN	A	192.168.1.153
+printer.house.mager.	IN	A	192.168.1.122
 *.house.mager.	IN	A	192.168.1.150
